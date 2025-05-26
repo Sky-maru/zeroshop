@@ -1,0 +1,344 @@
+header{
+    margin: 0 auto 20px;
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0;
+    z-index: 999;
+}
+header>div{
+    flex: 1;
+}
+.h_menu{
+    width: 18px; height: 18px;
+}
+.h_menu>a>img{
+    width: 18px; height: 18px;
+}
+.h_menu_wrap{
+    width: 293px; height: 0;
+    background-color: #5A9263;
+    position: absolute;
+    top: 0; left: 0;
+    overflow: hidden;
+    z-index: 999;        
+}
+.h_menu_wrap a{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 250%;
+    z-index: 999;    
+}
+.h_menu:hover>.h_menu_wrap{
+    height: 100%;
+    animation-duration: 3s;
+    padding: 30px 20px;
+}
+.h_menu_wrap>ul>li>ul>li>a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.h_about:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_shop>ul{
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+.h_shop:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_shop:hover>ul{
+    height: auto;
+}
+.h_community>ul{
+    height: 0;
+    overflow: hidden;
+    transition: 1s;    
+}
+.h_community:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_community:hover>ul{
+    height: auto;
+}
+.h_content>ul{
+    height: 0;
+    overflow: hidden;
+    transition: 1s;    
+}
+.h_content:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_content:hover>ul{
+    height: auto;
+}
+.h_offline:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_shop>ul>li:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_community>ul>li:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_content>ul>li:hover>a{
+    color: black;
+    transition: 1s;
+}
+.h_logo a{
+    width: 200x; height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/H_LOGO.png);
+    background-size: 200px 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.h_logo>h1{
+    font-size: 96px;
+    font-weight: 700;
+}
+.h_logo>h1>a{
+    color: #9BC0A1;
+}
+.h_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.h_right>ul{
+    width: 200px; height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h_right>ul>li>a{
+    color: #2e8b57;
+}
+.h_search>a{
+    display: block;
+    width: 18px; height: 18px;
+    background-image: url(../img/Search_color.png);
+    background-size: 18px 18px;
+    background-position: center;
+}
+.h_login .h_signup{
+    font-size: 16px;
+}
+.h_cart>a{
+    display: block;
+    width: 18px; height: 18px;
+    background-image: url(../img/Shopping_cart_color.png);
+    background-size: 18px 18px;
+    background-position: center;
+}
+
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+.main_title{
+    width: 100%;
+    background-color: #9bc0a165;
+}
+.m_title{
+    width: 1536px;
+    margin: 0 auto 40px;
+    /* border-bottom: 3px solid #9BC0A1; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.m_notice{
+    width: 1536px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.m_notice>h3{
+        font-size: 36px;
+}
+.m_noti_wrap{
+    width: 1536px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    margin-right: 50px;
+}
+.m_noti_wrap a{
+    color: black;
+}
+.m_noti:hover{
+    color: orangered;
+}
+.m_qna:hover{
+    color: orangered;
+}
+.m_review:hover{
+    color: orangered;
+}
+.m_csc:hover{
+    color: orangered;
+}
+
+
+.m_mainwrap{
+    width: 1536px;
+    margin: 0 auto;
+}
+.m_mainwrap article{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    background-color: white;
+    padding: 10px 50px 10px 30px;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 2px solid lightgray;
+}
+.m_wrap{
+    width: 1536px;
+    margin: 0 auto;
+}
+.m_wrap article{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    background-color: white;
+    padding: 10px 50px 10px 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid lightgray;
+}
+.m_wrap_no{
+    flex: 1;
+}
+.m_wrap_category .m_wrap_time{
+    flex: 3;
+}
+.m_wrap_main_title{
+    flex: 30;
+}
+.m_wrap_title{
+    flex: 30;
+    text-align: start;
+}
+.m_wrap_title a{
+    color: #000;
+}
+.배송안내 a{
+    color: lightblue;
+}
+.채용공고 a{
+    color: lightgreen;
+}
+.공지사항 a{
+    color: lightcoral;
+}
+
+.search_arti{
+    margin: 44px auto 34px;
+    display: flex;
+    justify-content: center;
+}
+.search_arti1{
+    width: 220px; height: 34px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+.search_arti1{
+    position: relative;
+}
+.search_arti2 img{
+    width: 20px; height: 20px;
+    position: relative;
+    top: 7px; left: 195px;
+}
+
+.page_btn{
+    width: 165px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 91px;
+}
+.page_btn>div{
+    width: 20px; height: 20px;
+    text-align: center;
+}
+.page_btn img{
+    width: 20px; height: 20px;
+}
+.page_btn a{
+    color: black;
+}
+
+
+footer{
+    width: 100%; height: 236px;
+    margin: 0 auto;
+    background-color: #9BC0A1;
+    display: flex;
+    justify-content: space-between;
+}
+footer>section{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.f_logo{
+    flex: 1;
+    
+}
+.f_logo>h1{
+    width: 125px; height: 125px;
+    margin-left: 26px;
+    background-image: url(../img/LOGO.png);
+    background-size: 125px 125px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.f_center{
+    flex: 1; height: 141px;
+    display: flex;
+    justify-content: space-between;
+}
+.f_center>article{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2px;
+}
+.f_center p{
+    color: #000;
+    font-size: 12px;
+}
+.f_right{
+    flex: 1;
+}
+.f_right>article{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+
+}
+.f_right a{
+    color: #000;
+}
